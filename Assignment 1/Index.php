@@ -1,3 +1,6 @@
+// 1.Create a php webpage and print your name:
+// 2.To write a program gets the name of the user form and show greeting text :
+// 3.To write a program gets the name and phone number of the user form and show greeting text :
 <!DOCTYPE html>
 <html lang="en">
 <head>
