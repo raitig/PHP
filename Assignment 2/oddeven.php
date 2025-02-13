@@ -1,3 +1,4 @@
+//Create a php program to find odd or even number from given number.
 <!DOCTYPE html>
 <html lang="en">
 <head>
