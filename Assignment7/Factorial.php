@@ -1,4 +1,4 @@
-Write a php program to calculate the factorail the given number
+//Write a php program to calculate the factorail the given number
 <!DOCTYPE html>
 <html lang="en">
 <head>
