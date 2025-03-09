@@ -1,4 +1,4 @@
-write a php program to calculate Electric bill in php 
+//write a php program to calculate Electric bill in php 
 <!DOCTYPE html>
 <html lang="en">
 <head>
