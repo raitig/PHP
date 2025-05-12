@@ -1,0 +1,24 @@
+<!--Create a php webpage that user session to track how many times a user has visited the web page during the current session. include a "reset counter" button that reset the visited count -->
+<?php
+session_start();
+if(isset($_POST['reset']))
+$_SESSION['visits']=0;
+if(!isset($_SESSION['visits']))
+$_SESSION['visits']=1;
+else
+$_SESSION['visits']++;
+$visits=$_SESSION['visits'];
+?>
+<html> 
+    <head>
+        <title> Session board page visit counter </title>
+    </head>
+    <body>
+        <h2> session board page visit counter </h2>
+        <P> You have visited this page for <strong><?php
+    echo$visits;?>&nbsp;time(s) suring this session.</strong></P>
+    <form method="POST">
+        <button type="submit" name="reset"> Reset counter</button>
+    </form>
+    </body>
+</html>
